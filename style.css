@@ -1,0 +1,84 @@
+*{
+    
+}
+body{
+    background-color: lightslategray;
+}
+.navbar{
+    background-color: lightblue !important;
+}
+.styling{
+    background-color: rgb(39, 126, 233);
+    margin-left: 10px !important;
+    padding: 5px 20px !important;
+    &:hover{
+        border: 1px solid black !important;
+        box-shadow: 1px 1px 2px black !important;   
+    }
+}
+.card-title{
+    border: 2px solid blue;
+    padding-left: 8px;
+    border: none;
+}
+.card-title:hover{
+    border-left: 2px solid blue;
+    color: blue;
+    cursor: pointer;
+}
+.mine{
+    padding-left: 600px;
+    width: 100% !important;
+}
+.first{
+    height: 40rem;
+}
+.allcards{
+    display: flex !important;
+}
+.card{
+    margin-left:150px ;}
+.accordion{
+margin-left: 400px;
+    }
+.accordion-item{
+    width: 800px;
+}
+@media screen and (max-width:768px){
+    body{
+        overflow-x: hidden;
+    }
+    .allcards{
+        /* border: 2px solid black; */
+        display: flex !important;
+        flex-direction: column;
+        row-gap: 15px;
+        /* width: 30rem !important; */
+    }
+    .card{
+        margin-left: 7rem;
+        width: 30rem !important;
+    }
+    .accordion{
+        width: 20rem !important;
+        margin-left: 0px;
+    }
+    .accordion-item{
+        width: 40rem !important;
+        margin-left: 1.5rem;
+    }
+    .mine{
+        padding-left:11rem !important;
+    }
+    .pagination{
+        
+    }
+    .navbar{
+        width: 40rem ;
+    }
+    .carousel-inner{
+        border: 2px solid red;
+        width: 100% !important;
+        width: 45rem !important;
+    }
+}
